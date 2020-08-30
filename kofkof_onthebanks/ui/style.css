@@ -1,0 +1,144 @@
+body {
+    background-color: transparent;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    overflow: hidden;
+}
+
+.UpTab {
+    background-color: #3f3f3f;
+    height: 60px; 
+    width: 100%;
+    display: flex;
+}
+
+.TabSmallBar {
+    background-color: #333333;
+    height: 5px; 
+    width: 110px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.TabOption {
+    background-color: #86C232;
+    height: 60px;
+    width: 110px;
+    margin-right: 1px;
+}
+
+.TabText {
+    color: white;
+    font-weight: bold;
+    margin-top: -28px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.DownSpace {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+}
+
+.InfoPainel {
+    width: 20%;
+    height: 8%;
+    margin-top: 6%;
+    margin-left: 28%;
+    background-color: transparent;
+    display: flex;
+}
+
+.InfoPainelBG {
+    background-color: rgba(39, 39, 39, 0.6);
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.InfoPainelData {
+    width: 100%;
+    height: 100%;
+}
+
+.InvPainel {
+    width: 50%;
+    height: 80%;
+    margin-top: 6%;
+    margin-left: 0%;
+    background-color: transparent;
+    
+}
+
+.InvPainelBG {
+    background-color: rgba(39, 39, 39, 0.4);
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.Slot {
+    background-color: transparent;
+    float: left;
+    overflow:auto;
+}
+
+.InvSpace {
+    width: 98%;
+    height: 98%;
+    margin-top: 0.6%;
+    margin-left: 0.7%;
+    padding-right: 0.4%;
+    padding-bottom: 0.4%;
+    background-color: rgba(39, 39, 39, 0.3);
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 0.7%;
+    grid-auto-rows: minmax(8%, auto);
+    grid-auto-columns: minmax(6%, auto);
+    grid-auto-flow: row;
+}
+
+
+#SubMenu {
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+    width: 4vw; 
+    height: 100px; 
+    border-radius: 0px 10px 10px 10px; 
+    background-color: #272727; 
+    opacity: 0; 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: #86C232 solid 1px;
+}
+
+
+#PersonImage {
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+
+
