@@ -10,7 +10,7 @@ I dont give any type of support to this script, so you are at your own! You are 
 It means you can adapt to any framework out there, you just need to connect the use, give, drop events to my scripts like i did to the esx one!
 
 **How do I install it correctly?**
-- First insert the sql file to your server database and then go to the users table (if you dont have one, create it!) and add a collumn called 'items' and it is a LongText, the deafault value is '[]';
+- First insert the sql file to your server database and then go to the users table (if you dont have one, create it!) and add a collumn called 'items' and it is a LongText, the deafault value is [ ]; Like this image: ![image|690x22](upload://48QomUWTmH8lczRpWWbJDQVo9gR.png)  
 - Place the kofkof_onthebanks folder in your resource server folder;
 - Start the script on your server.cfg file;
 - And have fun!
@@ -31,3 +31,4 @@ https://github.com/Kuanaxd/kofkof_onthebanks
 **Images/videos?**
 https://cdn.discordapp.com/attachments/704130273931165779/739075354693468260/unknown.png
 https://youtu.be/MGyS-DRcdUk
+
